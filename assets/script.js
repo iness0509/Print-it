@@ -33,6 +33,7 @@ function  updateSlide(position) {
     dot.classList.toggle("dot_selected", i === position) 
 );}
 
+
 arrowRight.addEventListener('click', function () {
     position = (position + 1) % slides.length;
     updateSlide(position);   
